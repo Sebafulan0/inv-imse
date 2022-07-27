@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+// Obtengo el elemento root de la app
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+// llamo al render de react sobre el elemento root
 root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
